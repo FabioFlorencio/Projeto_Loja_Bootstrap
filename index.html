@@ -33,15 +33,15 @@
     <!-- Header -->
     <header class="container-fluid">
         <section class="container">
-            <article class="row">
+            <article class="row d-flex align-items-center">
                 <!-- Logo -->
                 <a href="/" class="col-md-2">
                     <img src="./assets/imagens/logo.svg" alt="Logo da empresa - Moda da Mulher">
                 </a>
                 <!-- Buscador -->
-                <form action="#" class="col-md-7">
+                <form action="#" class="col-md-7 d-flex align-items-center">
                     <input type="text" placeholder="Procurar Roupas aqui" name="name">
-                    <button>
+                    <button class="d-flex align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-search" viewBox="0 0 16 16">
                             <path
@@ -50,10 +50,10 @@
                     </button>
                 </form>
                 <!-- Administrativo do cliente -->
-                <ul class="col-md-3 nav">
+                <ul class="col-md-3 nav justify-content-around align-items-center">
                     <li class="nav-item">
                         <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                 class="bi bi-person-fill" viewBox="0 0 16 16">
                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
                             </svg>
@@ -61,9 +61,9 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <span class="notificacao">3</span>
+                        <span class="notificacao d-flex justify-content-center align-items-center">3</span>
                         <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                 class="bi bi-cart-fill" viewBox="0 0 16 16">
                                 <path
                                     d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
@@ -79,8 +79,8 @@
         <section class="container">
             <ul class="nav">
                 <!-- Lista de Itens -->
-                <li class="nav-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                <li class="nav-item d-flex col-md-2 align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                         class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
@@ -88,26 +88,26 @@
                     Moda Feminina
 
                     <!-- SubMenu -->
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            Lançamentos
+                    <ul class="nav-sub flex-column">
+                        <li class="nav-item d-flex align-items-center">
+                            <a href="#">Lançamentos</a>                            
                         </li>
                         <li class="nav-item">
-                            Plus Size
+                            <a href="#">Plus Size</a>                            
                         </li>
                         <li class="nav-item">
-                            Moda Praia
+                            <a href="#">Moda Praia</a>                            
                         </li>
                         <li class="nav-item">
-                            Acessórios
+                            <a href="#">Acessórios</a>                            
                         </li>
                         <li class="nav-item">
-                            Promoção
+                            <a href="#">Promoção</a>                            
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                <li class="nav-item col-md-2 d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                         class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
@@ -141,33 +141,24 @@
                 <span class="visually-hidden">Previous</span>
             </button>
         </section>
-        <section class="container">
+        <section class="container banners-promo-statico">
             <section class="row">
                 <article class="col-md-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
-                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
-                        <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>                                             
-                    </svg>
-                    <p>
-                        Parcele em até<br>
-                        <strong>12x sem juros</strong>
-                    </p>   
+                    <div class="d-flex align-items-center banners-promo-statico-12x">
+                        
+                    </div> 
                 </article>
                 <article class="col-md-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
-                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                    </svg>
-                    <p>
-                        Entrega para <br>
-                        <strong>todo Brasil</strong>
-                    </p>
+                    <div class="d-flex align-items-center banners-promo-statico-todo-br">
+                                                
+                    </div>
                 </article>
             </section>
         </section>
-        <section class="container">
+        <section class="container produtos">
             <h1 class="text-center">Mais Populares</h1>
             <article class="row">
-                <section class="produtos col-md-3">
+                <a href="#" class="produtos-container col-md-3">
                     <img class="img-fluid" src="./assets/imagens/cropped-rosa.jpg" alt="Cropped rosa">
                     <article class="produtos-itens">
                         <h2>Cropped rosa</h2>
@@ -186,8 +177,8 @@
                             R$ 59,90
                         </strong>
                     </article>
-                </section>
-                <section class="produtos col-md-3">
+                </a>
+                <a href="#" class="produtos-container col-md-3">
                     <img class="img-fluid" src="./assets/imagens/camiseta-manga-comprida.jpg" alt="Camiseta manga comprida">
                     <article class="produtos-itens">
                         <h2>Camiseta manga comprida</h2>
@@ -209,8 +200,8 @@
                             R$ 79,90
                         </strong>
                     </article>
-                </section>
-                <section class="produtos col-md-3">
+                </a>
+                <a href="#" class="produtos-container col-md-3">
                     <img class="img-fluid" src="./assets/imagens/Camiseta Listrada.jpg" alt="Camiseta listrada">
                     <article class="produtos-itens">
                         <h2>Camiseta listrada</h2>
@@ -235,8 +226,8 @@
                             R$ 49,90
                         </strong>
                     </article>
-                </section>
-                <section class="produtos col-md-3">
+                </a>
+                <a href="#" class="produtos-container col-md-3">
                     <img class="img-fluid" src="./assets/imagens/saia-plisada.jpg" alt="Saia plisada">
                     <article class="produtos-itens">
                         <h2>Saia plisada</h2>
@@ -258,13 +249,81 @@
                             R$ 117,90
                         </strong>
                     </article>
-                </section>
+                </a>
             </article>
             <div class="d-flex justify-content-center">
                 <button type="button" class="btn btn-warning">Veja mais</button>
             </div>                        
         </section>
-    </main>    
+    </main>
+    
+    <footer class="container-fluid">
+        <section class="container">
+            <!--Atendimento-->
+            <section class="row">
+                <article class="col-md-4">
+                    <h4>Atendimento</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="tel:+55999999999">(11) 9 9999 9999</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="malito:contato@sualoja.com.br">contato@sualoja.com.br</a>
+                        </li>
+                        <li class="nav-item">
+                            Horário de atendimento on-line: Segunda á sexta das 9:00 até as 18:00
+                        </li>
+                    </ul>
+                </article>
+                <!--Mais acessadas-->
+                <article class="col-md-3">
+                    <h4>Acesso rápido</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="#">Minha conta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Meus pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Rastrear meus pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Troca e devoluções</a>
+                        </li>                        
+                    </ul>
+                </article>
+                <!--Institucional-->
+                <article class="col-md-3">
+                    <h4>Institucional</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="#">Sobre a loja</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Politica e privacidade</a>
+                        </li>                                                
+                    </ul>
+                </article>
+                <!--Mais acessadas-->
+                <article class="col-md-2">
+                    <h4>Mais acessadas</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="#">Cropped rosa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Camiseta manga</a>
+                        </li>                                                
+                            <a href="#">Camiseta listrada</a>
+                        </li>
+                            <a href="#">Saia plisada</a>
+                        </li>
+                    </ul>
+                </article>                
+            </section>
+        </section>        
+    </footer>
 
     <!-- Arquivos Bootstrap -->
     <script src="./assets/js/jquery-3.6.1.slim.js"></script>

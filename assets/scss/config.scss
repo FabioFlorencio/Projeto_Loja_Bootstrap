@@ -1,0 +1,15 @@
+    @use 'variaveis';
+
+html{
+    /* a cada 10px será considerado 1rem*/
+    font-size:10px;
+}
+
+body{    
+    color:variaveis.$cor-secundaria;
+}
+
+a{
+    text-decoration:none !important;    
+}
+
