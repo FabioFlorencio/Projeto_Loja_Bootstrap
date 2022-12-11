@@ -1,0 +1,46 @@
+@use 'variaveis';
+
+nav.nav-produtos{
+    color:variaveis.$branco;
+    background:variaveis.$cor-secundaria;
+
+    a{
+        color:variaveis.$branco;        
+    }
+
+    ul.nav{        
+        li{
+            position:relative;
+            font-size:2rem; 
+            padding:1rem;            
+             
+            svg{
+                width:2rem; // Defini o tamanho do SVG              
+                height:2rem;
+                margin-right:1rem;
+                
+            }       
+            ul.nav-sub{
+                position:absolute;
+                top:5rem;
+                left:0;
+                z-index:2;
+                display:none;
+                width:100%;
+                list-style:none;  
+                padding-left:0;                
+                border-top:solid variaveis.$cor-primary 1rem;
+                background:variaveis.$cor-secundaria;
+                li{                    
+                    padding:1rem 2.5rem;                    
+                }                                                
+            }
+            &:hover{                
+                background-color:darken($color: variaveis.$cor-secundaria, $amount: 30%);
+                ul.nav-sub{                    
+                    display:block;
+                }
+            }            
+        }        
+    }
+}

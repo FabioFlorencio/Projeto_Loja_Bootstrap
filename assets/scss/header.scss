@@ -1,0 +1,57 @@
+@use 'variaveis';
+header{
+    background-color:variaveis.$cor-primary;
+    padding: 2.5em;    
+
+    form{
+        input[type="text"]{
+            background-color:variaveis.$branco;
+            width:100%;
+            padding:1rem 2rem;
+            border-radius:100px;
+            border:none;
+        }
+        button{
+            position:relative;
+            right:40px;            
+            background:none;
+            border:none;
+        }
+        textarea:focus, input:focus, select:focus {
+            outline: 0;
+        }
+    }
+
+    ul{
+        li{
+            position:relative;
+            span.notificacao{
+                position:absolute;
+                top:-0.9rem;
+                left:0.5rem;
+                width:1.6rem;
+                height:1.6rem;
+                font-size:1rem;
+                color:variaveis.$branco;
+                border-radius:100%;
+                background:variaveis.$rosa;
+
+            }
+
+            a{
+                color:variaveis.$cor-secundaria;
+                font-size:1.6rem;
+                font-weight:bold; 
+
+                svg{
+                    width:2.3rem;
+                    height:2.3rem;
+                }
+                               
+                &:hover{
+                    color:initial;
+                }
+            }               
+        }
+    }
+}

@@ -1,4 +1,107 @@
 @charset "UTF-8";
+header {
+  background-color: #FFC107;
+  padding: 2.5em;
+}
+header form input[type=text] {
+  background-color: #FFF;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  border: none;
+}
+header form button {
+  position: relative;
+  right: 40px;
+  background: none;
+  border: none;
+}
+header form textarea:focus, header form input:focus, header form select:focus {
+  outline: 0;
+}
+header ul li {
+  position: relative;
+}
+header ul li span.notificacao {
+  position: absolute;
+  top: -0.9rem;
+  left: 0.5rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  font-size: 1rem;
+  color: #FFF;
+  border-radius: 100%;
+  background: #FF0F9A;
+}
+header ul li a {
+  color: #343A40;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+header ul li a svg {
+  width: 2.3rem;
+  height: 2.3rem;
+}
+header ul li a:hover {
+  color: initial;
+}
+
+nav.nav-produtos {
+  color: #FFF;
+  background: #343A40;
+}
+nav.nav-produtos a {
+  color: #FFF;
+}
+nav.nav-produtos ul.nav li {
+  position: relative;
+  font-size: 2rem;
+  padding: 1rem;
+}
+nav.nav-produtos ul.nav li svg {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+nav.nav-produtos ul.nav li ul.nav-sub {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  z-index: 2;
+  display: none;
+  width: 100%;
+  list-style: none;
+  padding-left: 0;
+  border-top: solid #FFC107 1rem;
+  background: #343A40;
+}
+nav.nav-produtos ul.nav li ul.nav-sub li {
+  padding: 1rem 2.5rem;
+}
+nav.nav-produtos ul.nav li:hover {
+  background-color: black;
+}
+nav.nav-produtos ul.nav li:hover ul.nav-sub {
+  display: block;
+}
+
+.banners-promo-statico {
+  margin-top: 1rem;
+}
+.banners-promo-statico .banners-promo-statico-12x {
+  background-color: #FF0F9A;
+  background: url("../imagens/Parcelas_12x.jpg");
+}
+.banners-promo-statico .banners-promo-statico-todo-br {
+  background-color: #B343C3;
+  background: url("../imagens/Entrega_todo_Pais.jpg");
+}
+.banners-promo-statico .banners-promo-statico-12x,
+.banners-promo-statico .banners-promo-statico-todo-br {
+  height: 10.5rem;
+  background: cover;
+}
+
 /*!
 * Bootstrap  v5.2.2 (https://getbootstrap.com/)
 * Copyright 2011-2022 The Bootstrap Authors
@@ -10932,5 +11035,17 @@ textarea.form-control-lg {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+html {
+  /* a cada 10px será considerado 1rem*/
+  font-size: 10px;
+}
+
+body {
+  color: #343A40;
+}
+
+a {
+  text-decoration: none !important;
+}
 
 /*# sourceMappingURL=style.css.map */
