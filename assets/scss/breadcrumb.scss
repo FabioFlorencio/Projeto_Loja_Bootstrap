@@ -1,0 +1,11 @@
+@use 'variaveis';
+
+.breadcrumb{
+    font-size:2rem;
+    margin:4rem 0;
+    padding:0;    
+
+    a{
+        color:variaveis.$rosa;
+    }    
+}

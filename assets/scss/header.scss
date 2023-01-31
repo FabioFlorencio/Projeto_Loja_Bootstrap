@@ -1,5 +1,7 @@
 @use 'variaveis';
+
 header{
+
     background-color:variaveis.$cor-primary;
     padding: 2.5em;    
 
@@ -27,7 +29,7 @@ header{
             position:relative;
             span.notificacao{
                 position:absolute;
-                top:-0.9rem;
+                top:-0.9rem;            
                 left:0.5rem;
                 width:1.6rem;
                 height:1.6rem;
@@ -40,7 +42,7 @@ header{
 
             a{
                 color:variaveis.$cor-secundaria;
-                font-size:1.6rem;
+                font-size:variaveis.$font-a-padrao;
                 font-weight:bold; 
 
                 svg{
@@ -55,3 +57,4 @@ header{
         }
     }
 }
+

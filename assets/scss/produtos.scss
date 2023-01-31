@@ -1,0 +1,45 @@
+@use 'variaveis'; 
+
+.produtos{
+    margin:3rem 0;
+
+    h1{
+        font-size:variaveis.$font-h1-padrao;
+    }
+
+    .veja{        
+        //font-size:2rem;
+        font-size:variaveis.$font-h1-padrao;
+        font-weight:bold;
+    }
+    p{
+        font-size:2rem;
+    }     
+    
+    .produtos-container{
+        margin:3rem 0;
+        .produtos-itens{
+            color:variaveis.$cinza;
+            h2{
+                //font-size:1.9rem;
+                font-size:max(2.2rem,min(2.4vw, 2.6rem));
+                margin:1rem 0;
+            }
+            .produtos-stars{
+                font-size:1.3rem;
+                //font-size:max(2.2rem,min(3vw, 6rem));
+                // Icone estrela
+                svg{
+                    //width:1.8rem;
+                    //height:1.8rem;
+                    width:variaveis.$star-tam-padrao;
+                    fill:variaveis.$amarelo;
+                }
+            }
+            .produtos-preco{
+                //font-size:1.6rem;
+                font-size:variaveis.$font-tam-padrao;
+            }
+        }
+    }
+}
