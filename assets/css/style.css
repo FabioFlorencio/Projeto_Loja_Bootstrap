@@ -35,7 +35,7 @@ header ul li span.notificacao {
 }
 header ul li a {
   color: #343A40;
-  font-size: 1.6rem;
+  font-size: max(1.6rem, min(2vw, 2.2rem));
   font-weight: bold;
 }
 header ul li a svg {
@@ -90,18 +90,138 @@ nav.nav-produtos ul.nav li:hover ul.nav-sub {
 }
 .banners-promo-statico .banners-promo-statico-12x {
   background-color: #FF0F9A;
-  background: url("../imagens/Parcelas_12x.jpg");
+  background: url("../imagens/parcele-em-12x_sem_bg.jpg") no-repeat;
 }
 .banners-promo-statico .banners-promo-statico-todo-br {
   background-color: #B343C3;
-  background: url("../imagens/Entrega_todo_Pais.jpg");
+  background: url("../imagens/Entrega-para-todo-brasil_sem_bg.jpg") no-repeat;
 }
 .banners-promo-statico .banners-promo-statico-12x,
 .banners-promo-statico .banners-promo-statico-todo-br {
   height: 10.5rem;
-  background: cover;
+  padding: 2rem 6rem;
+  background-color: cover;
+  color: #FFF;
+}
+.banners-promo-statico .banners-promo-statico-12x svg, .banners-promo-statico .banners-promo-statico-12x p,
+.banners-promo-statico .banners-promo-statico-todo-br svg,
+.banners-promo-statico .banners-promo-statico-todo-br p {
+  margin: 0;
+  padding: 0;
+}
+.banners-promo-statico .banners-promo-statico-12x svg,
+.banners-promo-statico .banners-promo-statico-todo-br svg {
+  width: max(3.8rem, min(4.5vw, 5.5rem));
+  font-size: 55px;
+}
+.banners-promo-statico .banners-promo-statico-12x p,
+.banners-promo-statico .banners-promo-statico-todo-br p {
+  font-weight: 100;
+  font-size: max(2.2rem, min(2.4vw, 2.6rem));
+  line-height: 110%;
+  margin-left: 20px;
+}
+.banners-promo-statico .banners-promo-statico-12x p strong,
+.banners-promo-statico .banners-promo-statico-todo-br p strong {
+  font-weight: bold;
 }
 
+.produtos {
+  margin: 3rem 0;
+}
+.produtos h1 {
+  font-size: max(2.2rem, min(2.4vw, 2.8rem));
+}
+.produtos .veja {
+  font-size: max(2.2rem, min(2.4vw, 2.8rem));
+  font-weight: bold;
+}
+.produtos p {
+  font-size: 2rem;
+}
+.produtos .produtos-container {
+  margin: 3rem 0;
+}
+.produtos .produtos-container .produtos-itens {
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: max(2.2rem, min(2.4vw, 2.6rem));
+  margin: 1rem 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars {
+  font-size: 1.3rem;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  width: max(1.8rem, min(2.1vw, 2.5rem));
+  fill: #FFC107;
+}
+.produtos .produtos-container .produtos-itens .produtos-preco {
+  font-size: max(2.2rem, min(2.4vw, 2.6rem));
+}
+
+.produtos-compra figure {
+  margin-bottom: 3rem;
+}
+.produtos-compra .produtos-conteudo {
+  /*h1{
+      //margin-bottom:3rem;
+      font-size:variaveis.$font-h1-padrao;
+  }*/
+}
+.produtos-compra .produtos-conteudo p {
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+}
+.produtos-compra .produtos-preco .produtos-stars svg {
+  width: max(1.8rem, min(2.1vw, 2.5rem));
+  fill: #FFC107;
+}
+.produtos-compra .produtos-preco strong {
+  font-size: max(3.2rem, min(3.4vw, 3.8rem));
+}
+.produtos-compra .produtos-preco form {
+  font-weight: 100;
+}
+.produtos-compra .produtos-preco .produtos-stars svg, .produtos-compra .produtos-preco span, .produtos-compra .produtos-preco form {
+  font-size: 1.6rem;
+}
+
+footer {
+  padding: 2.5rem 0;
+  background-color: #343A40;
+}
+footer h4 {
+  font-size: 1.9rem;
+  color: #FFC107;
+}
+footer a {
+  color: #FFF;
+  font-size: 1.6rem;
+}
+footer a:hover {
+  color: #FFF;
+}
+
+@media (max-width: 767px) {
+  header input {
+    margin: 2rem 0;
+  }
+  #banners-promocionais {
+    display: none;
+  }
+  .produtos-container img {
+    width: 100%;
+  }
+  .produtos div a {
+    width: 100%;
+  }
+}
+@media (max-width: 981px) {
+  header ul li {
+    margin: 0.7rem 0;
+  }
+}
 /*!
 * Bootstrap  v5.2.2 (https://getbootstrap.com/)
 * Copyright 2011-2022 The Bootstrap Authors
@@ -11035,6 +11155,15 @@ textarea.form-control-lg {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.breadcrumb {
+  font-size: 2rem;
+  margin: 4rem 0;
+  padding: 0;
+}
+.breadcrumb a {
+  color: #FF0F9A;
+}
+
 html {
   /* a cada 10px será considerado 1rem*/
   font-size: 10px;
@@ -11046,6 +11175,18 @@ body {
 
 a {
   text-decoration: none !important;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h4 {
+  margin: 1rem 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

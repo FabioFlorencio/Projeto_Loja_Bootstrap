@@ -1,0 +1,16 @@
+@use 'variaveis';
+footer{
+    padding:2.5rem 0;
+    background-color: variaveis.$cor-secundaria;
+    h4{
+        font-size:1.9rem;
+        color:variaveis.$cor-primary;
+    }    
+    a{
+        color:variaveis.$branco;
+        font-size:1.6rem;
+        &:hover{
+            color:variaveis.$branco;
+        }
+    }    
+}

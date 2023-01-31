@@ -1,0 +1,33 @@
+@mixin tam-tela-981{
+    @media (max-width: 981px){
+      header{
+            ul{
+                li{
+                    margin:0.7rem 0;
+                }
+            }
+        }  
+    }    
+}
+
+@mixin tam-tela-767{
+    @media (max-width: 767px){
+        header{        
+            input{
+                margin:2rem 0;
+            }    
+        }
+        //Carrousel
+        #banners-promocionais{
+            display:none;
+        }
+        .produtos-container img{
+            width:100%;
+        }
+        .produtos div a{
+            width:100%;            
+        }
+    }
+}
+
+

@@ -1,0 +1,39 @@
+@use 'variaveis';
+
+// CSS da página prod-camiseta-manga-comprida.html
+
+.produtos-compra{
+    figure{
+        margin-bottom:3rem;
+    }
+    .produtos-conteudo{        
+        /*h1{
+            //margin-bottom:3rem;
+            font-size:variaveis.$font-h1-padrao;
+        }*/
+        p{
+            font-size:1.6rem;
+            margin-bottom:2.5rem;
+        }
+    }
+    .produtos-preco{
+        .produtos-stars{
+            svg{
+                //width:1.3rem;
+                //height:1.3rem;                        
+                width:variaveis.$star-tam-padrao;
+                fill:variaveis.$amarelo;
+            }
+        }
+        strong{
+            //font-size:4rem;
+            font-size:variaveis.$font-strong-padrao;
+        }
+        form{
+            font-weight:100;            
+        }
+        .produtos-stars svg, span, form{
+            font-size:1.6rem;
+        }
+    }
+}

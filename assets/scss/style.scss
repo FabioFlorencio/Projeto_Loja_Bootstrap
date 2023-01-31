@@ -4,13 +4,22 @@
 @import "./nav-produtos.scss";
 @import "./banners-promo-statico.scss";
 @import "./produtos.scss";
+@import "./produtos-compra.scss";
+@import "./footer.scss";
+@import "./responsive.scss";
 
 //Framework
 @import "./bootstrap.min.scss";
 
+//Componentes Bootstrap
+@import "./breadcrumb.scss";
+
+
 //Config
 
 @import "./config.scss";
+@import "./mixins";
+
 
 
 
