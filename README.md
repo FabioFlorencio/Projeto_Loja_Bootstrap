@@ -14,12 +14,12 @@
 
 <img alt="Hotel capa" src="./Layout/esbocoLayout3.png" width="50%">
 
-## :hammer_and_wrench:  Tecnologias
+## Tecnologias :hammer_and_wrench: 
 
-- Bootstrap
-- Sass
+* [`Bootstrap`](#bootstrap)
+* [`Sass`](#sass)
 
-## :art:  Layout
+##  Layout:art:
 
 - <a href="./Layout/headerSection.png">Header/Section</a>
 - <a href="./Layout/section1Layout.png">Section 1</a>
@@ -27,12 +27,27 @@
 - <a href="https://github.com/FabioFlorencio/Projeto_Hotel/blob/master/Layout/section3Layout.png">Section 3</a>
 - <a href="https://github.com/FabioFlorencio/Projeto_Hotel/blob/master/Layout/FooterLayout.png">Footer</a>
 
-## :mag_right:  Pré-requisitos
+## Pré-requisitos:mag_right:
 
-<p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: :octocat: <a href="https://git-scm.com/downloads">Git</a> e um editor de código <a href="https://code.visualstudio.com/download">VS Code.</a></p>
+<p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:</p>
+<p>:octocat: <a href="https://git-scm.com/downloads">Git</a> e um editor de código <a href="https://code.visualstudio.com/download">VS Code.</a></p>
+
+### <a href="https://getbootstrap.com/">Bootstrap</a>
+### <a href="https://sass-lang.com/install/">Sass</a>
+### <a href="https://nodejs.org/en/">Node</a>
+
+
 
 
 ```bash
+    #Execute esses comandos abaixo no terminal do seu computador.
+    
+    #Para saber a versão instalada do Node digite o comando abaixo:
+    $ node --version
+    
+    # Depois de instalar o Node, execute o comando no terminal do seu computador para instalar o Sass.
+    $ npm install -g sass
+    
     # Clone este repositório
     $ git clone https://github.com/FabioFlorencio/Projeto_Loja_Bootstrap.git
 
