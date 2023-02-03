@@ -16,7 +16,7 @@
 
 ## Tecnologias :hammer_and_wrench: 
 
-* [`Bootstrap`](#bootstrap)
+* [`Bootstrap v5.2.2`](#bootstrap)
 * [`Sass`](#sass)
 
 ##  Layout:art:
