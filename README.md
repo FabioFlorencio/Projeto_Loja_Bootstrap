@@ -1,5 +1,3 @@
-# Projeto_Loja_Bootstrap
-
 # :dress: Projeto Loja Bootstrap :handbag: 
 
 <p>O projeto Loja Bootstrap, tem o intuito demostrar o aprendizado das tecnologias Bootstrap e Saas para adequar o design responsivo em um site. Foi utilizado como base uma aplicação do canal <a href="https://www.youtube.com/playlist?list=PLMy95_4XE08MT1Af0gtvH-vI8D95exF0y"> Vida FullStack </a> para replicar esses conceitos.</p>
@@ -8,11 +6,7 @@
 * :rocket: [Site da aplicação](https://fabioflorencio.github.io/Projeto_Loja_Bootstrap/)
 * :clapper: [Video no Youtube](https://www.youtube.com/watch?v=8QHxcOjpelY)
 
-<a href="https://www.youtube.com/watch?v=8QHxcOjpelY"><img alt="Hotel capa" src="./Layout/Home.jpg" width="50%"></a>
-
-
-
-<img alt="Hotel capa" src="./Layout/esbocoLayout3.png" width="50%">
+<a href="https://www.youtube.com/watch?v=8QHxcOjpelY"><img alt="Página Home" src="./Layout/Home.jpg" width="50%"></a>
 
 ## Tecnologias :hammer_and_wrench: 
 
