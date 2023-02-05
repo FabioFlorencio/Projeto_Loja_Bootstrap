@@ -12,7 +12,7 @@
         @include banners-promocionais(variaveis.$rosa, '../imagens/parcele-em-12x_sem_bg.jpg');         
     }
     .banners-promo-statico-todo-br{
-        @include banners-promocionais(variaveis.$roxo, '../imagens/Entrega-para-todo-brasil_sem_bg.jpg');        
+        @include banners-promocionais(variaveis.$roxo, '../imagens/entrega-para-todo-brasil_sem_bg.jpg');        
     }
     .banners-promo-statico-12x,
     .banners-promo-statico-todo-br{              
