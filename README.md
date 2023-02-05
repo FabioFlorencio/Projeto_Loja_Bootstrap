@@ -5,10 +5,10 @@
 <p>O projeto Loja Bootstrap, tem o intuito demostrar o aprendizado das tecnologias Bootstrap e Saas para adequar o design responsivo em um site. Foi utilizado como base uma aplicação do canal <a href="https://www.youtube.com/playlist?list=PLMy95_4XE08MT1Af0gtvH-vI8D95exF0y"> Vida FullStack </a> para replicar esses conceitos.</p>
 
 
-* :rocket: [Site da aplicação](https://fabioflorencio.github.io/Projeto_Hotel/)
+* :rocket: [Site da aplicação](https://fabioflorencio.github.io/Projeto_Loja_Bootstrap/)
 * :clapper: [Video no Youtube](https://www.youtube.com/watch?v=8QHxcOjpelY)
 
-<a href="https://www.youtube.com/watch?v=8QHxcOjpelY"><img alt="Hotel capa" src="./Layout/Hotel_capa.png" width="50%"></a>
+<a href="https://www.youtube.com/watch?v=8QHxcOjpelY"><img alt="Hotel capa" src="./Layout/Home.jpg" width="50%"></a>
 
 
 
@@ -21,12 +21,10 @@
 
 ##  Layout:art:
 
-- <a href="./Layout/Home.jpg">Header/Section</a>
-- <a href="./Layout/Mais Produtos.jpg">Section 1</a>
-- <a href="./Layout/Ver produto.jpg">Section 1</a>
-- <a href="https://github.com/FabioFlorencio/Projeto_Hotel/blob/master/Layout/section2Layout.png">Section 2</a>
-- <a href="https://github.com/FabioFlorencio/Projeto_Hotel/blob/master/Layout/section3Layout.png">Section 3</a>
-- <a href="https://github.com/FabioFlorencio/Projeto_Hotel/blob/master/Layout/FooterLayout.png">Footer</a>
+- <a href="./Layout/Home.jpg">Home</a>
+- <a href="./Layout/Mais Produtos.jpg">Camisetas</a>
+- <a href="./Layout/Ver produto.jpg">Ver Produto</a>
+
 
 ## Pré-requisitos:mag_right:
 
