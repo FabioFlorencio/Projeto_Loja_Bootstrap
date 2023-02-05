@@ -21,8 +21,9 @@
 
 ##  Layout:art:
 
-- <a href="./Layout/headerSection.png">Header/Section</a>
-- <a href="./Layout/section1Layout.png">Section 1</a>
+- <a href="./Layout/Home.jpg">Header/Section</a>
+- <a href="./Layout/Mais Produtos.jpg">Section 1</a>
+- <a href="./Layout/Ver produto.jpg">Section 1</a>
 - <a href="https://github.com/FabioFlorencio/Projeto_Hotel/blob/master/Layout/section2Layout.png">Section 2</a>
 - <a href="https://github.com/FabioFlorencio/Projeto_Hotel/blob/master/Layout/section3Layout.png">Section 3</a>
 - <a href="https://github.com/FabioFlorencio/Projeto_Hotel/blob/master/Layout/FooterLayout.png">Footer</a>
