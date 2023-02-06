@@ -13,14 +13,14 @@
     }
 
     .banners-promo-statico-12x{     
-        @include banners-promocionais('../imagens/parcele-em-12x_sem_bg.jpg');         
+        @include banners-promocionais('../imagens/parcele-em-12x-sem-bg.jpg');         
     }
     
     .banners-promo-statico-12x,
     .banners-promo-statico-todo-br{              
         height: 10.5rem;  
         padding:2rem 6rem;                  
-        //background-color:cover; 
+        background-color:cover; 
         color:variaveis.$branco;  
 
         svg, p{

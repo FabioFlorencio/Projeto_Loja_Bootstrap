@@ -92,12 +92,13 @@ nav.nav-produtos ul.nav li:hover ul.nav-sub {
   background: url("../imagens/entrega-para-todo-brasil-sem-bg.jpg") no-repeat;
 }
 .banners-promo-statico .banners-promo-statico-12x {
-  background: url("../imagens/parcele-em-12x_sem_bg.jpg") no-repeat;
+  background: url("../imagens/parcele-em-12x-sem-bg.jpg") no-repeat;
 }
 .banners-promo-statico .banners-promo-statico-12x,
 .banners-promo-statico .banners-promo-statico-todo-br {
   height: 10.5rem;
   padding: 2rem 6rem;
+  background-color: cover;
   color: #FFF;
 }
 .banners-promo-statico .banners-promo-statico-12x svg, .banners-promo-statico .banners-promo-statico-12x p,
