@@ -1,8 +1,7 @@
 @use 'variaveis';
 @mixin banners-promocionais($url-image){    
     //background-color:$cor;
-    background:url($url-image) no-repeat;
-    
+    background:url($url-image) no-repeat;        
 }   
 .banners-promo-statico{
 
