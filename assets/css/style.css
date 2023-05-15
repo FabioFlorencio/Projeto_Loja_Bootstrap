@@ -88,11 +88,21 @@ nav.nav-produtos ul.nav li:hover ul.nav-sub {
 .banners-promo-statico {
   margin-top: 1rem;
 }
+<<<<<<< HEAD
+.banners-promo-statico .banners-promo-statico-12x {
+  background-color: #FF0F9A;
+  background: url("../imagens/parcele-em-12x_sem_bg.jpg") no-repeat;
+}
+.banners-promo-statico .banners-promo-statico-todo-br {
+  background-color: #B343C3;
+  background: url("../imagens/Entrega-para-todo-brasil_sem_bg.jpg") no-repeat;
+=======
 .banners-promo-statico .banners-promo-statico-todo-br {
   background: url("../imagens/entrega-para-todo-brasil-sem-bg.jpg") no-repeat;
 }
 .banners-promo-statico .banners-promo-statico-12x {
   background: url("../imagens/parcele-em-12x-sem-bg.jpg") no-repeat;
+>>>>>>> master
 }
 .banners-promo-statico .banners-promo-statico-12x,
 .banners-promo-statico .banners-promo-statico-todo-br {
