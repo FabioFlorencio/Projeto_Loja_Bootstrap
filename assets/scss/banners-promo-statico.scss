@@ -1,12 +1,27 @@
 @use 'variaveis';
+<<<<<<< HEAD
+@mixin banners-promocionais($cor, $url-image){    
+    background-color:$cor;
+    background:url($url-image) no-repeat;
+    
+=======
 @mixin banners-promocionais($url-image){    
     //background-color:$cor;
     background:url($url-image) no-repeat;        
+>>>>>>> master
 }   
 .banners-promo-statico{
 
     margin-top:1rem;
 
+<<<<<<< HEAD
+    .banners-promo-statico-12x{     
+        @include banners-promocionais(variaveis.$rosa, '../imagens/parcele-em-12x_sem_bg.jpg');         
+    }
+    .banners-promo-statico-todo-br{
+        @include banners-promocionais(variaveis.$roxo, '../imagens/Entrega-para-todo-brasil_sem_bg.jpg');        
+    }
+=======
     .banners-promo-statico-todo-br{
         @include banners-promocionais('../imagens/entrega-para-todo-brasil-sem-bg.jpg');        
     }
@@ -15,6 +30,7 @@
         @include banners-promocionais('../imagens/parcele-em-12x-sem-bg.jpg');         
     }
     
+>>>>>>> master
     .banners-promo-statico-12x,
     .banners-promo-statico-todo-br{              
         height: 10.5rem;  
